@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 50px;
+}
+
+.container{
+    display: flex;
+    gap: 50px;
+
+}
+
+#posts {
+    width: 400px;
+    padding-top: 20px;
+}
+
+#posts div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+.options{
+    display: flex;
+    gap: 50px;
+}
+
+i:hover{
+    color: blue;
+    cursor: pointer;
+}
+#msg{
+    color: red;
+}
+#input {
+    border-radius: 10px;
+    filter: drop-shadow(8px 8px 10px rgb(117, 117, 253));
+}
+.post-title{
+    display: inline-flex;
+    margin: 0 50px;
+    padding: 40px;
+}
