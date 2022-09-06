@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0 50px;
+    
 }
 
 .container{
@@ -8,7 +9,14 @@ body{
     gap: 50px;
 
 }
-
+.about{
+    text-decoration-line: none;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about:hover{
+    color: red;
+}
 #posts {
     width: 400px;
     padding-top: 20px;
@@ -32,6 +40,7 @@ i:hover{
     color: red;
 }
 #input {
+    border-style: none;
     border-radius: 10px;
     filter: drop-shadow(8px 8px 10px rgb(117, 117, 253));
 }
@@ -187,9 +196,9 @@ i:hover{
   margin-bottom: 5px;
 }
 
-/* If you don't want the footer to be responsive, remove these media queries */
 
-@media (max-width: 880px) {
+
+@media (max-width: 880px,) {
   .footer-distributed {
     font: bold 14px sans-serif;
   }
