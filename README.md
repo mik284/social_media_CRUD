@@ -1,5 +1,5 @@
 # social_media_CRUD
-
-
-## AUTHOR
-# MICHAEL KAMAU 
+Created by:
+ https://github.com/mik284
+# AUTHOR
+ * MICHAEL KAMAU 
